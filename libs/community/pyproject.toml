@@ -111,3 +111,7 @@ filterwarnings = [
     "ignore::langchain_core._api.deprecation.LangChainDeprecationWarning:test",
     "ignore::langchain_core._api.deprecation.LangChainPendingDeprecationWarning:test",
 ]
+
+[tool.uv.sources]
+langchain-core = { path = "../../../langchain195/libs/core", editable = true }
+langchain-classic = { path = "../../../langchain195/libs/langchain", editable = true }
